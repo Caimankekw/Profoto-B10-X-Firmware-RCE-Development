@@ -2,6 +2,8 @@
 
 [English](README.md) | [简体中文](README.zh-CN.md)
 
+Custom firmware developer: [Caimankekw](https://github.com/Caimankekw) (REV1 / REV5). Original components retain their respective ownership notices.
+
 Firmware identifier: `RC5`, built directly from D3. Firmware metadata and ABOUT display `RC5`.
 
 ## Implementation

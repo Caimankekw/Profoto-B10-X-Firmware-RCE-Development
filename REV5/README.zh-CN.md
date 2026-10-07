@@ -2,6 +2,8 @@
 
 [English](README.md) | [简体中文](README.zh-CN.md)
 
+自定义固件开发者：[Caimankekw](https://github.com/Caimankekw)（REV1 / REV5）。原厂组件版权归原权利人所有。
+
 固件标识：`RC5`，直接基于 D3 构建；固件元数据与 ABOUT 均显示 `RC5`。
 
 ## 实现

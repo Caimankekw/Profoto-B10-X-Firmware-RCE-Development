@@ -2,6 +2,8 @@
 
 [English](README.md) | [简体中文](README.zh-CN.md)
 
+Custom firmware developer: [Caimankekw](https://github.com/Caimankekw) (REV1 / REV5). Original components retain their respective ownership notices.
+
 This branch contains the independent D3-based REV5 development project. It provides `NON-X / X / BOOST` under RECHARGE CTRL, a home-screen selection indicator, and ECO with HSS adaptation. Firmware metadata and ABOUT display `RC5`. BOOST and ECO are available only on 500 Ws Plus models.
 
 | Directory | Contents |

@@ -2,6 +2,8 @@
 
 [English](README.md) | [简体中文](README.zh-CN.md)
 
+自定义固件开发者：[Caimankekw](https://github.com/Caimankekw)（REV1 / REV5）。原厂组件版权归原权利人所有。
+
 本分支为独立基于 D3 的 REV5 开发工程。提供 RECHARGE CTRL 下的 `NON-X / X / BOOST`、主屏挡位提示，以及 ECO 与 HSS 适配。固件元数据与 ABOUT 显示 `RC5`。BOOST 和 ECO 仅对 500 Ws Plus 型号开放。
 
 | 目录 | 内容 |
