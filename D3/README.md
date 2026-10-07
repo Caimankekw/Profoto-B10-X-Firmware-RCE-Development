@@ -161,3 +161,7 @@ python D3/disassemble.py --image powerboard --start 0x08009148 --end 0x0800920C 
 ```
 
 The script first checks the original BIN and embedded power-board hashes, then produces disassembly only in the selected output directory. It does not access USB. It performs linear decoding: **data and literal pools may also appear as instructions**. It does not automatically recover function boundaries or original C source. Main-controller output skips the embedded power board, which is decoded separately at its own correct load address. Existing files with the same names are not overwritten. The repository does not include full pre-generated disassembly, bitmaps, or per-level data exports.
+
+## License / 许可
+
+Original code and documentation are licensed under [AGPL-3.0-only](../LICENSE), by **Caimankekw**. Original firmware, recovered original machine code, and third-party components retain their respective rights and are not relicensed by this project; see [NOTICE](../NOTICE.md) for the scope. Custom Windows updater and installer build source is available in `windows/` on the corresponding development branch.

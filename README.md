@@ -23,3 +23,7 @@ Each development branch includes its own build entry point and the required orig
 Both custom Windows update packages are provided together in the [REV1 + REV5 release](https://github.com/Caimankekw/Profoto-B10-X-Firmware-RCE-Development/releases/tag/rev1-rev5-20261007): `Profoto-B10-REV1-Custom-Updater.exe` and `Profoto-B10-REV5-Custom-Updater.exe`. They use the original-style Windows updater interface. They are custom firmware packages, not official Profoto releases or a claim of official signing. Follow the README included with the selected package.
 
 Code and image verification do not establish electrical margin, measured recycle time, exposure consistency, or color-temperature accuracy. The original firmware and resources remain the property of their respective rights holders.
+
+## License / 许可
+
+Original code and documentation are licensed under [AGPL-3.0-only](LICENSE), by **Caimankekw**. Original firmware, recovered original machine code, and third-party components retain their respective rights and are not relicensed by this project; see [NOTICE](NOTICE.md) for the scope. Custom Windows updater and installer build source is available in `windows/` on the corresponding development branch.
