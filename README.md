@@ -38,3 +38,5 @@ A 20% reduction in recycle time is a design target, not a measured guarantee. Th
 ## License / 许可
 
 Original code and documentation are licensed under [AGPL-3.0-only](LICENSE), by **Caimankekw**. Original firmware, recovered original machine code, and third-party components retain their respective rights and are not relicensed by this project; see [NOTICE](NOTICE.md) for the scope. Custom Windows updater and installer build source is available in `windows/` on the corresponding development branch.
+
+Before flashing or using the experimental firmware, read the [English disclaimer](DISCLAIMER.md) or [中文免责声明](DISCLAIMER.zh-CN.md). Both are provided alongside [LICENSE](LICENSE) and [NOTICE](NOTICE.md), covering experimental risks, verification limits, and preservation of statutory rights.
