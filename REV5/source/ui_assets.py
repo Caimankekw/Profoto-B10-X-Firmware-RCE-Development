@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: AGPL-3.0-only
+# Copyright (C) 2026 Caimankekw.
 """Compose RC5 recharge/ECO assets from original B10 REV-D3 21 px glyphs.
 
 No firmware mutation. build_assets(base) returns a relocatable bitmap blob and

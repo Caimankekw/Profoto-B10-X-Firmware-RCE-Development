@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: AGPL-3.0-only
+# Copyright (C) 2026 Caimankekw.
 """Build the two minimal D3 patch projects and check the frozen release bytes."""
 from pathlib import Path
 import argparse

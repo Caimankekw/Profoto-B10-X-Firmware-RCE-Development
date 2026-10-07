@@ -49,3 +49,7 @@ PB   be56734b508ef577fa5c4c257499e3a65ef06003aa4d7c8d526cccaf09a85fac
 ## Windows 更新包
 
 在 [REV1 + REV5 合并 Release](https://github.com/Caimankekw/Profoto-B10-X-Firmware-RCE-Development/releases/tag/rev1-rev5-20261007) 下载 `Profoto-B10-REV5-Custom-Updater.exe`。它封装了供此自定义固件使用的原厂风格 Windows 更新器，无需 Python；不是 Profoto 官方发版，也不代表获得官方签名。使用方法见更新包内说明。
+
+## 许可协议
+
+原创代码及说明采用 [AGPL-3.0-only](../LICENSE)，开发者为 **Caimankekw**。原厂固件、恢复的原始机器码及第三方组件保留各自权利，不由本项目重新授权；具体范围见 [NOTICE](../NOTICE.md)。Windows 自定义更新器及安装器的构建源码位于对应开发分支的 `windows/`。

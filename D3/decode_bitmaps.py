@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: AGPL-3.0-only
+# Copyright (C) 2026 Caimankekw.
 """Decode the firmware's 4-bit grayscale run length stream, from 08000d8c/08000dc0."""
 import struct
 from pathlib import Path

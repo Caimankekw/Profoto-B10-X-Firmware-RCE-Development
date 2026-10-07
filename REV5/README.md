@@ -49,3 +49,7 @@ The root build also checks DFU CRC and the embedded power-board bytes. The separ
 ## Windows update package
 
 Download `Profoto-B10-REV5-Custom-Updater.exe` from the [combined REV1 + REV5 release](https://github.com/Caimankekw/Profoto-B10-X-Firmware-RCE-Development/releases/tag/rev1-rev5-20261007). It wraps the original-style Windows updater for this custom firmware and does not require Python. This is not an official Profoto release or a claim of official signing. Follow the included package instructions.
+
+## License / 许可
+
+Original code and documentation are licensed under [AGPL-3.0-only](../LICENSE), by **Caimankekw**. Original firmware, recovered original machine code, and third-party components retain their respective rights and are not relicensed by this project; see [NOTICE](../NOTICE.md) for the scope. Custom Windows updater and installer build source is available in `windows/` on the corresponding development branch.

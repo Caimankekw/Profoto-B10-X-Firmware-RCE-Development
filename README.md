@@ -33,3 +33,7 @@ The custom Windows package `Profoto-B10-REV5-Custom-Updater.exe` is available al
 See [main](https://github.com/Caimankekw/Profoto-B10-X-Firmware-RCE-Development/tree/main) for D3-only reverse engineering, or [REV1](https://github.com/Caimankekw/Profoto-B10-X-Firmware-RCE-Development/tree/REV1) for NON-X / X development.
 
 A 20% reduction in recycle time is a design target, not a measured guarantee. The selected home-screen value does not confirm that enhanced charging is active at that instant. Image verification does not replace electrical, thermal, exposure, HSS-uniformity, or color-temperature measurements. The original firmware and resources remain the property of their respective rights holders.
+
+## License / 许可
+
+Original code and documentation are licensed under [AGPL-3.0-only](LICENSE), by **Caimankekw**. Original firmware, recovered original machine code, and third-party components retain their respective rights and are not relicensed by this project; see [NOTICE](NOTICE.md) for the scope. Custom Windows updater and installer build source is available in `windows/` on the corresponding development branch.

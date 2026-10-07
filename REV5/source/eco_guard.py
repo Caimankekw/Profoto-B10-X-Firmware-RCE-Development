@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: AGPL-3.0-only
+# Copyright (C) 2026 Caimankekw.
 """B10 RC5 target-relative HSS hooks.
 
 Normal and HSS remain at the selected ECO voltage. ADC scaling, PWM bounds, feedback, timing

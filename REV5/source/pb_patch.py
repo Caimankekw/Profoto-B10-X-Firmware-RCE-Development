@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: AGPL-3.0-only
+# Copyright (C) 2026 Caimankekw.
 """RC5 experimental BOOST policy for the exact B10 D3 power board.
 
 No USB access or file writes. Uses the original B10 timer and HAL constants.

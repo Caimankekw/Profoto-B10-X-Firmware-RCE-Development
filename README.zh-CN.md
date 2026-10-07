@@ -33,3 +33,7 @@ REV5 自定义 Windows 更新包 `Profoto-B10-REV5-Custom-Updater.exe` 与 REV1 
 仅查看 D3 逆向请进入 [main](https://github.com/Caimankekw/Profoto-B10-X-Firmware-RCE-Development/tree/main)；NON-X / X 开发请进入 [REV1](https://github.com/Caimankekw/Profoto-B10-X-Firmware-RCE-Development/tree/REV1)。
 
 回电缩时 20% 是设计目标，不是实测承诺。主屏选择值不能证明当前正处于增强充电段。镜像校验不替代电气、温升、曝光、HSS 均匀性和色温实测。原固件及其资源归原权利人所有。
+
+## 许可协议
+
+原创代码及说明采用 [AGPL-3.0-only](LICENSE)，开发者为 **Caimankekw**。原厂固件、恢复的原始机器码及第三方组件保留各自权利，不由本项目重新授权；具体范围见 [NOTICE](NOTICE.md)。Windows 自定义更新器及安装器的构建源码位于对应开发分支的 `windows/`。

@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: AGPL-3.0-only
+# Copyright (C) 2026 Caimankekw.
 """RC5 packed recharge/ECO configuration helpers; no writes past cfg+67."""
 from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
