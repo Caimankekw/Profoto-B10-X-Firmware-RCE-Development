@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: AGPL-3.0-only
+# Copyright (C) 2026 Caimankekw.
 """On-demand linear Thumb disassembly of the fixed original REV-D3 image.
 
 This is not function discovery or decompilation. Data can decode as instructions.

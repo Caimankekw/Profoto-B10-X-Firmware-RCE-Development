@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: AGPL-3.0-only
+# Copyright (C) 2026 Caimankekw.
 """Minimal recharge-selector PB patch builder, with strict original-byte guards.
 
 No files or hardware are written by this module. The parent build owns nesting,

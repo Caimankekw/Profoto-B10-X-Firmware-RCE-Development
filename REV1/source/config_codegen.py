@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: AGPL-3.0-only
+# Copyright (C) 2026 Caimankekw.
 """Generate D3 RECHARGE CTRL main-side Thumb helpers, without patching firmware.
 
 Ownership: config_* files only. Import build() in the integrated patch builder.

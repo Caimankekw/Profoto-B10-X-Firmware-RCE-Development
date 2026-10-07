@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: AGPL-3.0-only
+# Copyright (C) 2026 Caimankekw.
 """Compose native-style RECHARGE CTRL/NON-X/X assets from original glyphs.
 
 No firmware mutation. build_assets(base) returns a relocatable bitmap blob and

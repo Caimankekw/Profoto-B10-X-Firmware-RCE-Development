@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: AGPL-3.0-only
+# Copyright (C) 2026 Caimankekw.
 """Reproducible binary patch build. Never opens USB or runs an updater.
 
 Only accepts the exactly identified official B10 REV-D3 inputs. All mutations
