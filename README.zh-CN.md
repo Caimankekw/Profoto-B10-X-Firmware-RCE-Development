@@ -2,6 +2,8 @@
 
 [English](README.md) | [简体中文](README.zh-CN.md)
 
+自定义固件开发者：[Caimankekw](https://github.com/Caimankekw)（REV1 / REV5）。原厂组件版权归原权利人所有。
+
 `main` 分支保存原始 B10 REV-D3 固件的逆向代码、分析说明与查看工具。入口为 [D3 逆向说明](D3/README.zh-CN.md)和[恢复的汇编切片](D3/source/)。
 
 恢复的名称、注释与伪代码属于逆向研究结果，不是厂商原始 C 源码；目前是部分还原，不是完整反编译或可直接构建的原固件源码。

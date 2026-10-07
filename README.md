@@ -2,6 +2,8 @@
 
 [English](README.md) | [简体中文](README.zh-CN.md)
 
+Custom firmware developer: [Caimankekw](https://github.com/Caimankekw) (REV1 / REV5). Original components retain their respective ownership notices.
+
 The `main` branch contains reverse-engineered code for the original B10 REV-D3 firmware, its analysis, and inspection tools. Start with the [D3 analysis](D3/README.md) and [recovered assembly excerpts](D3/source/).
 
 The recovered names, annotations, and pseudocode are research results, not the manufacturer's original C source. This is a partial reconstruction, not a complete decompilation or a buildable copy of the original firmware.

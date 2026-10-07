@@ -27,7 +27,7 @@ python -m pip install capstone==5.0.9 Pillow==11.3.0
 | 文件 | 内容 |
 | --- | --- |
 | [charge_state_machine.asm](source/charge_state_machine.asm) | 回电状态机 |
-| [powerboard_parameter_builder.asm](source/powerboard_parameter_builder.asm) | 功率板回电参数装载 |
+| [powerboard_parameter_builder.asm](source/powerboard_parameter_builder.asm) | 闪光放电参数与配方构造 |
 | [powerboard_mode_parser.asm](source/powerboard_mode_parser.asm) | 功率板模式协议解析 |
 | [pulse_builder.asm](source/pulse_builder.asm) | 普通放电事件构造 |
 | [pulse_executor.asm](source/pulse_executor.asm) | 闪光事件与 GPIO / HRTIM 执行 |
