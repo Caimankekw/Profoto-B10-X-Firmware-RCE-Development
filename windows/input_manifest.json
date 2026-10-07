@@ -1,0 +1,178 @@
+{
+  "schema": 1,
+  "description": "Required user-supplied official D3 runtime and tool fingerprints; no vendor binary is included here.",
+  "runtime": {
+    "D3Dcompiler_47.dll": {
+      "size": 3550208,
+      "sha256": "e3009e3738fab1f7cd685567c5aa1eb0a408ac51d0cda5da788841174d7625b1"
+    },
+    "driver_package/amd64/WdfCoInstaller01011.dll": {
+      "size": 1795952,
+      "sha256": "f6fb39a8578f19616570d5a3dc7212c84a9da232b30a03376bbf08f4264fedf2"
+    },
+    "driver_package/amd64/winusbcoinstaller2.dll": {
+      "size": 1002728,
+      "sha256": "981a17effddbc20377512ddaec9f22c2b7067e17a3e2a8ccf82bb7bb7b2420b6"
+    },
+    "driver_package/devcon.exe": {
+      "size": 82432,
+      "sha256": "6cdf9a5c39fc9e765cd7232bdb6aeaa3d2811bcbbf6875c4decc5d6c8bf308ea"
+    },
+    "driver_package/install_driver.cmd": {
+      "size": 905,
+      "sha256": "c9a02cfb4c6a31fad68f17fd4763853bba714a160313895008f7fde0ff36cc72"
+    },
+    "driver_package/profoto_stm32-based_device.cat": {
+      "size": 12853,
+      "sha256": "696a11d8d7f8f0e11ec0718a2d815ff50af9d646ace959cb0ffbb8cd591bd183"
+    },
+    "driver_package/Profoto_STM32-based_device.inf": {
+      "size": 2433,
+      "sha256": "e35036708fe2d5541cbe54a7e74c3ea13b6a8eea412328d17bfc45e42f74fc45"
+    },
+    "iconengines/qsvgicon.dll": {
+      "size": 42496,
+      "sha256": "2cb2c4e1a48d7c35c245688392e22d5125a296239a3f47ccb5af09c6223742db"
+    },
+    "imageformats/qdds.dll": {
+      "size": 58880,
+      "sha256": "3fc59be8ab0a5137190cf6c4e91c57eb846d0046d65369ba77bea90b0fdaa6d8"
+    },
+    "imageformats/qgif.dll": {
+      "size": 33792,
+      "sha256": "14064fca0851c7c2e06391024e9206ccc01a78dbdad295536ae1388b9e902b4d"
+    },
+    "imageformats/qicns.dll": {
+      "size": 46592,
+      "sha256": "fc7ad011fbfd2484600a6fead521b2538b496d03167349518bb3cb801c10c79c"
+    },
+    "imageformats/qico.dll": {
+      "size": 36352,
+      "sha256": "eb4e086958f03d9f4a051d720f100efed256fb1fdae4b83ce61b230ca27fb842"
+    },
+    "imageformats/qjpeg.dll": {
+      "size": 258560,
+      "sha256": "5729a27e21c03712004089500e67103f30b8208f91b2882449a549d713b625f6"
+    },
+    "imageformats/qsvg.dll": {
+      "size": 28672,
+      "sha256": "cb871fac7baf133c01ac00b74b121c2b29294c459c2d3a5a9c1a3b499434facc"
+    },
+    "imageformats/qtga.dll": {
+      "size": 28672,
+      "sha256": "70022ef77fec83f263aa48d5500695f8d2eb86149c1d673b31d469738dc2da1c"
+    },
+    "imageformats/qtiff.dll": {
+      "size": 495616,
+      "sha256": "87729efcefbb6dfe8d7e0b1f9096bc9ca1371472ba12e6bee9f73ccdc625e386"
+    },
+    "imageformats/qwbmp.dll": {
+      "size": 27648,
+      "sha256": "2442b0d505420eaad067d3d9a3ad272498dfaa7de0e83ee8ae8b8cb6d7298f44"
+    },
+    "imageformats/qwebp.dll": {
+      "size": 416768,
+      "sha256": "b505a7d952064ffa0aa619c61a803661307b092876e9365b38e887b3252272eb"
+    },
+    "libEGL.dll": {
+      "size": 22016,
+      "sha256": "3afc8fce0d0855c1d1ab6fbb7cbc5a9884b3a9832b7be31404624a998b7b40a4"
+    },
+    "libgcc_s_dw2-1.dll": {
+      "size": 120334,
+      "sha256": "4d2e2d408d399d066b0aaef2047f7a33515c13c589832de0d9f1ba87a530c394"
+    },
+    "libGLESV2.dll": {
+      "size": 2801664,
+      "sha256": "4bbf2d792fa7a0dfea0032a7e18f66229089486baaa93cb4cfdc1466c8c4de17"
+    },
+    "libstdc++-6.dll": {
+      "size": 1540622,
+      "sha256": "544d488fcfd76749c5ef2cd6bf9f73cc9fe59a86a819d369d710cca6e43cf4b1"
+    },
+    "libwinpthread-1.dll": {
+      "size": 79360,
+      "sha256": "712003aa990c4f9a1ee3cd044b8fd6abc44531710b7e42688b3767348330564b"
+    },
+    "opengl32sw.dll": {
+      "size": 15220736,
+      "sha256": "27a431d810ae895c2a8f8b9d7d1b41534761fad0695354b71f019ebfe309523e"
+    },
+    "platforms/qwindows.dll": {
+      "size": 1489920,
+      "sha256": "b5b0651831199a25afda8310656609e38c9e9a46062610512b6819d60d2c94e3"
+    },
+    "Profoto_DFU-app.exe": {
+      "size": 2874880,
+      "sha256": "4fe18a566843afde2bb1b3b4e8600495d9d010afeab1e1902519022fa3356fa5"
+    },
+    "Qt5Core.dll": {
+      "size": 5384704,
+      "sha256": "b5a7678456d2d8edc524bf5f35db2149906ffc639911f69319d8a997a055e42f"
+    },
+    "Qt5Gui.dll": {
+      "size": 5283840,
+      "sha256": "91e10a167d7dfaf0b19a9a002fa5e29deb53f5fea98f4ca3fa797f011b7c48ca"
+    },
+    "Qt5Svg.dll": {
+      "size": 348160,
+      "sha256": "f575fbddc984ea8e0c2fc27790d45092feddd7b916e497b2e8472339278077fd"
+    },
+    "Qt5Widgets.dll": {
+      "size": 6358528,
+      "sha256": "1ff855fa1f4af52cdd2f3eafbc6d41a71fb7150ed539353bccbff47bdd19f858"
+    }
+  },
+  "vendor_documents": {
+    "license_3rd_party.txt": {
+      "size": 29555,
+      "sha256": "7d41f0e5609df0750aa07c9a1fb3c9cd7d1ce917d7b51c498db212c25854e1ce"
+    },
+    "Profoto-FW-Trouble-Shooting-FAQ.pdf": {
+      "size": 89674,
+      "sha256": "b6bac51b6236f676f3b96f891af6c7fc81350b4e68299e4a82a38d9177ee894b"
+    }
+  },
+  "tools": {
+    "nsis-3.13/makensis.exe": {
+      "size": 2560,
+      "sha256": "4ec390d0f96f9728507fbc2f4e91311dd90bfc6c8ddfe2159357b3651ae151c0"
+    },
+    "nsis-3.13/COPYING": {
+      "size": 15632,
+      "sha256": "388357c1215ff403c5ebde3a5ecd273e68f8b79a579996775245d1ee65442aba"
+    },
+    "7zip/7z.exe": {
+      "size": 577536,
+      "sha256": "95fff19b73eff77c87c0d7bd32822e43fb90dd2932459f962eb532d8dfb6ba53"
+    },
+    "7zip/7z.dll": {
+      "size": 1907712,
+      "sha256": "899cd73d7fc60e1c1c35c7de0f5bed3dc69bfe2cecbd48014d868a347970a0b1"
+    },
+    "nsis-3.13/Bin/makensis.exe": {
+      "size": 468992,
+      "sha256": "65343c225ec88393cc4453b0963caf63f763f42f48cb55736d51893ff2e29d4a"
+    },
+    "nsis-3.13/Bin/zlib1.dll": {
+      "size": 81964,
+      "sha256": "c78eab41b346598736be1196eb949660b710356ad83204f6ef5bf9585c94731e"
+    },
+    "nsis-3.13/Plugins/x86-unicode/LangDLL.dll": {
+      "size": 5632,
+      "sha256": "3c8b2629048c118e4fcf80188cbcdaad3a668270e49fd95d2809feccc98fe220"
+    },
+    "nsis-3.13/Plugins/x86-unicode/System.dll": {
+      "size": 12288,
+      "sha256": "afe032f942e2ed0bf7494ec08ba813f5739fb522c640bde81d30ecaf9f894432"
+    },
+    "nsis-3.13/Plugins/x86-unicode/nsDialogs.dll": {
+      "size": 9728,
+      "sha256": "9c76f4d53ceee2a471c936e0899688405e1009ce962d140e9acb49ed68d114cb"
+    },
+    "nsis-3.13/Contrib/Graphics/Wizard/win.bmp": {
+      "size": 26494,
+      "sha256": "3ad2dc318056d0a2024af1804ea741146cfc18cc404649a44610cbf8b2056cf2"
+    }
+  }
+}

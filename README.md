@@ -10,6 +10,7 @@ This branch contains the independent D3-based REV1 development project. It adds 
 | --- | --- |
 | [D3](D3/README.md) | Original firmware reverse engineering, inspection tools, and required build inputs |
 | [REV1](REV1/README.md) | Patch source, implementation notes, and fixed release hashes |
+| [Windows](windows/README.md) | Custom updater and installer build source, with input fingerprints |
 
 This is a binary patch project, not the manufacturer's complete C source or an official update. This branch does not require other development versions.
 

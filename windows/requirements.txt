@@ -1,0 +1,3 @@
+# SPDX-License-Identifier: AGPL-3.0-only
+# Copyright 2026 Caimankekw
+pefile==2024.8.26
