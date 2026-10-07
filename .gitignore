@@ -1,0 +1,6 @@
+__pycache__/
+*.py[cod]
+.venv/
+**/build/
+D3/disassembly/
+D3/firmware/
