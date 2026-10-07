@@ -2,6 +2,8 @@
 
 [English](README.md) | [简体中文](README.zh-CN.md)
 
+Custom firmware developer: [Caimankekw](https://github.com/Caimankekw) (REV1 / REV5). Original components retain their respective ownership notices.
+
 This branch contains the independent D3-based REV1 development project. It adds `SETTINGS → ADVANCED → RECHARGE CTRL` with `NON-X / X` selection while preserving the 250 / 500 Ws model families. Firmware metadata is `D3-RC1`; the ABOUT screen retains the original `D3` display.
 
 | Directory | Contents |

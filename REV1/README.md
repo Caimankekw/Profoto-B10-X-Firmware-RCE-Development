@@ -2,6 +2,8 @@
 
 [English](README.md) | [简体中文](README.zh-CN.md)
 
+Custom firmware developer: [Caimankekw](https://github.com/Caimankekw) (REV1 / REV5). Original components retain their respective ownership notices.
+
 Firmware metadata: `D3-RC1`. ABOUT retains the original `D3` display. REV1 adds `SETTINGS → ADVANCED → RECHARGE CTRL` with `NON-X / X` selection to D3.
 
 ## Implementation

@@ -27,7 +27,7 @@ These files are linear-disassembly excerpts from original D3 machine code, with 
 | File | Contents |
 | --- | --- |
 | [charge_state_machine.asm](source/charge_state_machine.asm) | Recharge state machine |
-| [powerboard_parameter_builder.asm](source/powerboard_parameter_builder.asm) | Power-board recharge parameter loading |
+| [powerboard_parameter_builder.asm](source/powerboard_parameter_builder.asm) | Flash/discharge parameter and recipe construction |
 | [powerboard_mode_parser.asm](source/powerboard_mode_parser.asm) | Power-board mode protocol parser |
 | [pulse_builder.asm](source/pulse_builder.asm) | Ordinary discharge event construction |
 | [pulse_executor.asm](source/pulse_executor.asm) | Flash-event and GPIO / HRTIM execution |

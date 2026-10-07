@@ -2,6 +2,8 @@
 
 [English](README.md) | [简体中文](README.zh-CN.md)
 
+自定义固件开发者：[Caimankekw](https://github.com/Caimankekw)（REV1 / REV5）。原厂组件版权归原权利人所有。
+
 本分支为独立基于 D3 的 REV1 开发工程。新增 `SETTINGS → ADVANCED → RECHARGE CTRL`，选择 `NON-X / X`，保留 250 / 500 Ws 型号家族。固件元数据为 `D3-RC1`；ABOUT 保留原来的 `D3` 显示。
 
 | 目录 | 内容 |
