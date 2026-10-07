@@ -27,3 +27,5 @@
 ## 许可协议
 
 原创代码及说明采用 [AGPL-3.0-only](LICENSE)，开发者为 **Caimankekw**。原厂固件、恢复的原始机器码及第三方组件保留各自权利，不由本项目重新授权；具体范围见 [NOTICE](NOTICE.md)。Windows 自定义更新器及安装器的构建源码位于对应开发分支的 `windows/`。
+
+使用测试固件前，请阅读 [中文免责声明](DISCLAIMER.zh-CN.md) 或 [English disclaimer](DISCLAIMER.md)。中英文免责声明与 [LICENSE](LICENSE)、[NOTICE](NOTICE.md) 同级提供，说明测试风险、验证边界及法定权利保留。
