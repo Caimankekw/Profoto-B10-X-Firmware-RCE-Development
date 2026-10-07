@@ -1,23 +1,33 @@
-# Profoto B10 固件逆向
+# B10 REV1 开发
 
 [English](README.md) | [简体中文](README.zh-CN.md)
 
-`main` 分支保存原始 B10 REV-D3 固件的逆向代码、分析说明与查看工具。入口为 [D3 逆向说明](D3/README.zh-CN.md)和[恢复的汇编切片](D3/source/)。
+本分支为独立基于 D3 的 REV1 开发工程。新增 `SETTINGS → ADVANCED → RECHARGE CTRL`，选择 `NON-X / X`，保留 250 / 500 Ws 型号家族。固件元数据为 `D3-RC1`；ABOUT 保留原来的 `D3` 显示。
 
-恢复的名称、注释与伪代码属于逆向研究结果，不是厂商原始 C 源码；目前是部分还原，不是完整反编译或可直接构建的原固件源码。
-
-## 分支
-
-| 分支 | 内容 |
+| 目录 | 内容 |
 | --- | --- |
-| `main` | D3 逆向与查看工具，不带固件二进制或开发补丁 |
-| [REV1](https://github.com/Caimankekw/Profoto-B10-X-Firmware-RCE-Development/tree/REV1) | 独立基于 D3 的 NON-X / X 回电选择开发代码，固件元数据为 `D3-RC1` |
-| [REV5](https://github.com/Caimankekw/Profoto-B10-X-Firmware-RCE-Development/tree/REV5) | 独立基于 D3 的 NON-X / X / BOOST、ECO 与 HSS 适配开发代码，固件标识为 `RC5` |
+| [D3](D3/README.zh-CN.md) | 原固件逆向、查看工具及必要构建输入 |
+| [REV1](REV1/README.zh-CN.md) | 补丁源码、实现说明与固定发布哈希 |
 
-每个开发分支均包含自己的构建入口与必要 D3 原始输入，不需要中间开发版本。在 `main` 上运行查看工具的输入取得方式见 [D3 固件输入说明](D3/README.zh-CN.md#固件输入与分支)。
+这是二进制补丁工程，不是厂商完整 C 源码或官方更新；本分支不依赖其他开发版本。
 
-## Windows 更新
+## 构建
 
-两个自定义 Windows 更新包放在同一个 [REV1 + REV5 Release](https://github.com/Caimankekw/Profoto-B10-X-Firmware-RCE-Development/releases/tag/rev1-rev5-20261007)：`Profoto-B10-REV1-Custom-Updater.exe` 与 `Profoto-B10-REV5-Custom-Updater.exe`。更新包使用原厂风格的 Windows 更新器界面，属于自定义固件，不是 Profoto 官方发版，也不代表获得官方签名。使用方法见对应更新包内的 README。
+推荐 Python 3.11，在仓库根目录运行：
 
-代码及镜像校验不能证明电气余量、实际回电时间、曝光一致性或色温准确性。原固件及其资源归原权利人所有。
+```powershell
+python -m pip install -r requirements.txt
+python build.py
+```
+
+依赖固定为 `capstone==5.0.9`、`keystone-engine==0.9.2`、`Pillow==11.3.0`。产物位于 `REV1/build/`：`RC1.bin`、`RC1.dfu`、`powerboard.bin` 与补丁记录。主控镜像已嵌入功率板镜像，不能把独立功率板 BIN 当作主控固件刷入。
+
+构建核验固定 SHA-256、内嵌功率板字节与 DFU CRC，逐字节复现已有 REV1 发布镜像。构建不访问 USB，也不刷写灯具。
+
+## Windows 更新包与其他分支
+
+REV1 自定义 Windows 更新包 `Profoto-B10-REV1-Custom-Updater.exe` 与 REV5 一起放在[同一个 Release](https://github.com/Caimankekw/Profoto-B10-X-Firmware-RCE-Development/releases/tag/rev1-rev5-20261007)。它使用原厂风格的更新器界面，无需 Python；不是 Profoto 官方发版，也不代表获得官方签名。使用方法见包内 README。
+
+仅查看 D3 逆向请进入 [main](https://github.com/Caimankekw/Profoto-B10-X-Firmware-RCE-Development/tree/main)；BOOST / ECO 开发请进入 [REV5](https://github.com/Caimankekw/Profoto-B10-X-Firmware-RCE-Development/tree/REV5)。
+
+保留原保护代码不能证明非 X 硬件采用 X 策略的电气余量。镜像校验不替代电气、温升、曝光和色温实测。原固件及其资源归原权利人所有。

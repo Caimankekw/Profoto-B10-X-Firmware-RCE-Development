@@ -3,4 +3,3 @@ __pycache__/
 .venv/
 **/build/
 D3/disassembly/
-D3/firmware/
